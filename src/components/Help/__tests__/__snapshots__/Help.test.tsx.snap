@@ -1,0 +1,330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Help snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="help"
+  >
+    <div
+      class="box"
+    >
+      <p>
+        The Event Stream Registry UI is a tool for observing and monitoring event-streams.
+      </p>
+    </div>
+    <div
+      class="box"
+    >
+      <h1>
+        VIEW COMMANDS
+      </h1>
+      <p>
+        There are four views of the Event Stream Registry UI
+      </p>
+      <ul>
+        <li>
+          <dl>
+            GRAPH
+          </dl>
+          <dt>
+            Node graph diagram showing the connectedness of services and topics in the Event Registry
+          </dt>
+        </li>
+        <li>
+          <dl>
+            TOPICS
+          </dl>
+          <dt>
+            Table of Event Stream Registry topic information
+          </dt>
+        </li>
+        <li>
+          <dl>
+            SERVICES
+          </dl>
+          <dt>
+            Table of Event Stream Registry service information
+          </dt>
+        </li>
+        <li>
+          <dl>
+            HELP
+          </dl>
+          <dt>
+            Information on how to use the Event Stream Registry
+          </dt>
+        </li>
+      </ul>
+      <p>
+        You can switch view using the search bar by typing \`topics\`, \`services\`, \`graph\` and \`help\` or the buttons in the top right corner.
+      </p>
+    </div>
+    <div
+      class="box"
+    >
+      <h1>
+        SEARCH PARAMETERS
+      </h1>
+      <p>
+        The search bar can be used to filter 
+        <b>
+          TOPICS
+        </b>
+         and 
+        <b>
+          SERVICES
+        </b>
+        .
+      </p>
+      <ul>
+        <li>
+          <dl>
+            status=bad
+          </dl>
+          <dt>
+            Get 
+            <b>
+              TOPICS
+            </b>
+             and 
+            <b>
+              SERVICES
+            </b>
+             in an unhealthy state
+          </dt>
+        </li>
+        <li>
+          <dl>
+            status=good
+          </dl>
+          <dt>
+            Get 
+            <b>
+              TOPICS
+            </b>
+             and 
+            <b>
+              SERVICES
+            </b>
+             in a healthy state
+          </dt>
+        </li>
+        <li>
+          <dl>
+            id=dfh
+          </dl>
+          <dt>
+            Get 
+            <b>
+              TOPICS
+            </b>
+             and 
+            <b>
+              SERVICES
+            </b>
+             where id is not null and id contains 
+            <i>
+              "dfh"
+            </i>
+          </dt>
+        </li>
+        <li>
+          <dl>
+            partitions=6
+          </dl>
+          <dt>
+            Get 
+            <b>
+              TOPICS
+            </b>
+             and 
+            <b>
+              SERVICES
+            </b>
+             where partitions is not null and partitions equals 6
+          </dt>
+        </li>
+        <li>
+          <dl>
+            offset&gt;100
+          </dl>
+          <dt>
+            Get 
+            <b>
+              TOPICS
+            </b>
+             and 
+            <b>
+              SERVICES
+            </b>
+             where offset is not null and offset is greater than 100
+          </dt>
+        </li>
+      </ul>
+      <p>
+        You can also filter by multiple fields. When filtering by multiple fields the operations are conjugated.
+      </p>
+      <ul>
+        <li>
+          <dl>
+            offset&gt;100 partition=6
+          </dl>
+          <dt>
+            Get 
+            <b>
+              TOPICS
+            </b>
+             and 
+            <b>
+              SERVICES
+            </b>
+             where offset is not null and offset is greater than 100 AND where partitions is not null and partitions is equal to 6 
+          </dt>
+        </li>
+        <li>
+          <dl>
+            id=dfh status=bad
+          </dl>
+          <dt>
+            Get 
+            <b>
+              TOPICS
+            </b>
+             and 
+            <b>
+              SERVICES
+            </b>
+             in an unhealthy state 
+            <b>
+              AND
+            </b>
+             where id is not null and id contains "dfh"
+          </dt>
+        </li>
+      </ul>
+      <p>
+        The following operations are available for each field type:
+      </p>
+      <ul>
+        <li>
+          <dl>
+            NUMERIC FIELD
+          </dl>
+          <dt>
+             
+            <b>
+              =   &lt;   &lt;=   &gt;   &gt;=
+            </b>
+          </dt>
+        </li>
+        <li>
+          <dl>
+            STRING FIELD
+          </dl>
+          <dt>
+            <b>
+              =
+            </b>
+               
+            <span>
+              <i>
+                evaluted as contains, i.e. id=abc equates to the string \`abc\` is contained within the id
+              </i>
+            </span>
+          </dt>
+        </li>
+      </ul>
+      <p>
+        You can only filter by known fields. The list of known fields is shown below. 
+      </p>
+    </div>
+    <div
+      class="box"
+    >
+      <div
+        class="fields"
+      >
+        <h1>
+          TOPIC FIELDS
+        </h1>
+        <div
+          class="node-type"
+        >
+          <h3>
+            NUMERIC
+          </h3>
+          <ul>
+            <li
+              class="field"
+            >
+              t_num_1
+            </li>
+            <li
+              class="field"
+            >
+              t_num_2
+            </li>
+          </ul>
+        </div>
+        <div
+          class="node-type left"
+        >
+          <h3>
+            STRING
+          </h3>
+          <ul>
+            <li
+              class="field"
+            >
+              id
+            </li>
+            <li
+              class="field"
+            >
+              t_str_1
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="fields right"
+      >
+        <h1>
+          SERVICE FIELDS
+        </h1>
+        <div
+          class="node-type"
+        >
+          <h3>
+            NUMERIC
+          </h3>
+          <ul>
+            <li
+              class="field"
+            >
+              s_num_1
+            </li>
+            <li
+              class="field"
+            >
+              s_num_2
+            </li>
+          </ul>
+        </div>
+        <div
+          class="node-type"
+        >
+          <h3>
+            STRING
+          </h3>
+          <ul>
+            <li>
+              id
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

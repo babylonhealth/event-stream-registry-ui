@@ -1,0 +1,13 @@
+@import "../EventStreamRegistry/_variables.scss";
+
+input {
+  outline: 0;
+  font-family: "Courier New", sans-serif;
+  font-size: 12px;
+  border-color: $lightGrey;
+  border-width: 0 0 1px;
+  padding-bottom: 4px;
+  padding-left: $lpad;
+  height: 12px;
+  width: 100%
+}

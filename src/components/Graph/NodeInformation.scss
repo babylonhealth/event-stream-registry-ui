@@ -1,0 +1,36 @@
+@import "../EventStreamRegistry/_variables.scss";
+
+.node-information {
+  position: absolute;
+  top: 15px;
+  left: $lpad;
+  background-color: white;
+  opacity: 0.9;
+  z-index: 100;
+  width: 35%;
+  font-family: "Courier New", sans-serif;
+  font-size: 10px;
+}
+.row {
+  display: flex;
+  padding-bottom: 5px;
+}
+.row p {
+  margin: 0;
+}
+.row a {
+  margin: 0;
+  text-decoration: none;
+  color: $urlBlue;
+}
+.row a:hover {
+  font-weight: bold;
+}
+.key {
+  width: 35%;
+}
+.value {
+  width: 65%;
+  overflow-wrap: break-word;
+}
+

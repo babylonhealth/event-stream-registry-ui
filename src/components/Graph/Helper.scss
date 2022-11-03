@@ -1,0 +1,15 @@
+@import "../EventStreamRegistry/_variables.scss";
+
+.helper {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  top: 10px;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 100;
+}
+.helper p {
+  font-family: "Courier New", sans-serif;
+  font-size: 12px;
+}

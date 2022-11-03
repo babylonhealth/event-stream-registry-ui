@@ -1,0 +1,79 @@
+@import "../EventStreamRegistry/_variables.scss";
+
+$largeFontSize: 17px;
+$mediumFontSize: 12px;
+$smallFontSize: 10px;
+
+.help {
+    padding-left: $lpad;
+    padding-top: 20px;
+    width: 80%;
+    font-family: "Courier New", monospace;
+    font-size: $smallFontSize;
+}
+
+.help p {
+    margin: 0;
+}
+
+.help li {
+    list-style-type: circle;
+}
+
+.help h1 {
+    margin-top: 0;
+    padding-bottom: 1px;
+    font-size: $largeFontSize;
+    font-weight: lighter;
+    border-bottom: 1px lightgray solid;
+}
+
+.help h2 {
+    font-weight: lighter;
+    font-size: $mediumFontSize;
+    margin: 0;
+    width: 100%;
+    border-bottom: 1px $lightGrey solid;
+}
+
+.help h3 {
+    font-weight: lighter;
+    font-size: $mediumFontSize;
+}
+.box {
+    padding-bottom: 35px;
+}
+
+.help ul dl {
+    display: inline-block;
+    width: 200px;
+    margin: 1px;
+}
+
+.help ul dt {
+    display: inline-block;
+}
+.help ul span {
+    font-size: 8px;
+}
+.help ul p {
+    font-size: $mediumFontSize;
+}
+
+.fields {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    padding-top: 10px;
+}
+.node-type {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+.right {
+    float: right;
+}
+.no-bottom-padding{
+    margin-bottom: 0;
+}

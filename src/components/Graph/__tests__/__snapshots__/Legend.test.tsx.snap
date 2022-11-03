@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="legend"
+  >
+    <div>
+      <span>
+        TOPIC :
+      </span>
+      <i
+        class="material-icons"
+      >
+        fiber_manual_record
+      </i>
+    </div>
+    <div>
+      <span>
+        SERVICE :
+      </span>
+      <i
+        class="material-icons"
+      >
+        crop_din
+      </i>
+    </div>
+  </div>
+</DocumentFragment>
+`;

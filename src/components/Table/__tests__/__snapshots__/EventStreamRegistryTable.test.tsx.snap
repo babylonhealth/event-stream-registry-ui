@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="event-registry-table"
+  >
+    <table>
+      <thead>
+        <tr>
+          <th
+            class="id"
+            scope="col"
+          />
+          <th
+            class="status"
+            scope="col"
+          />
+          <th
+            class="metadata"
+            scope="col"
+          >
+            string metadata field
+          </th>
+          <th
+            class="metadata"
+            scope="col"
+          >
+            numeric metadata field
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td
+            class="id"
+          >
+            topic1
+          </td>
+          <td
+            class="status"
+          >
+            <span
+              class="material-icons icon"
+              style="color: rgb(255, 0, 0);"
+            >
+              circle
+            </span>
+          </td>
+          <td
+            class="metadata"
+            style="color: rgb(0, 0, 0);"
+          >
+            <span
+              class="tooltip"
+            />
+          </td>
+          <td
+            class="metadata"
+            style="color: rgb(0, 0, 0);"
+          >
+            <span
+              class="tooltip"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td
+            class="id"
+          >
+            topic2
+          </td>
+          <td
+            class="status"
+          >
+            <span
+              class="material-icons icon"
+              style="color: rgb(255, 0, 0);"
+            >
+              circle
+            </span>
+          </td>
+          <td
+            class="metadata"
+            style="color: rgb(0, 0, 0);"
+          >
+            <span
+              class="tooltip"
+            />
+          </td>
+          <td
+            class="metadata"
+            style="color: rgb(0, 0, 0);"
+          >
+            <span
+              class="tooltip"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;

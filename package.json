@@ -1,0 +1,62 @@
+{
+  "name": "event-registry-view",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/d3": "^7.4.0",
+    "@types/jest": "^29.0.0",
+    "@types/lodash": "^4.14.184",
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/node": "^18.7.14",
+    "@types/object-hash": "^2.2.1",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-table": "^7.7.12",
+    "@types/react": "^18.0.18",
+    "add": "^2.0.6",
+    "bezier-js": "^6.1.0",
+    "d3": "^7.6.1",
+    "lodash.debounce": "^4.0.8",
+    "material-icons": "^1.11.11",
+    "node-cache": "^5.1.2",
+    "node-sass": "^7.0.3",
+    "object-hash": "^3.0.0",
+    "react": "^18.2.0",
+    "react-async-hook": "^4.0.0",
+    "react-dom": "^18.2.0",
+    "react-force-graph-2d": "1.23.11",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.8.2",
+    "use-constant": "^1.1.1",
+    "web-vitals": "^3.0.1",
+    "yarn": "^1.22.19"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

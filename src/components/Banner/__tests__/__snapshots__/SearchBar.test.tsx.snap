@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <input
+    aria-label="search-bar"
+    placeholder="SEARCH... (or type help)"
+    spellcheck="false"
+    type="text"
+    value=""
+  />
+</DocumentFragment>
+`;

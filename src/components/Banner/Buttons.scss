@@ -1,0 +1,28 @@
+@import "../EventStreamRegistry/_variables.scss";
+@import 'material-icons/iconfont/material-icons.scss';
+
+.buttons {
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 0;
+}
+
+.buttons span {
+    vertical-align: middle;
+    padding-left: 3px;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    color: $lightGrey;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.buttons span:hover {
+    color: $darkGrey;
+}
+
+.buttons span.clicked {
+    color: $darkGrey;
+}

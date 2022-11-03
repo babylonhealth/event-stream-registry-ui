@@ -1,0 +1,28 @@
+@import "../EventStreamRegistry/_variables.scss";
+
+.legend {
+  position: absolute;
+  bottom: 30px;
+  left: $lpad;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 100;
+}
+.legend div{
+  display: inline;
+  padding-right: 10px;
+}
+.legend span {
+  font-family: "Courier New", sans-serif;
+  font-size: 12px;
+  padding-right: 8px;
+}
+.legend i {
+  vertical-align: middle;
+  position: relative;
+  padding-right: 5px;
+  top: 2px;
+  font-size: 12px !important;
+  height: 12px !important;
+  width: 12px !important;
+}
